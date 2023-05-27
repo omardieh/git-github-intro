@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+      }
+
+      h1 {
+        color: #333;
+        text-decoration: underline;
+      }
+
+      p {
+        color: #666;
+      }
+
+      code {
+        background-color: #f0f0f0;
+        padding: 2px 4px;
+        font-family: Consolas, monospace;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Initialize a Git Repository:</h1>
+    <p>
+      Create a new folder for your project.<br />
+      Open your command line interface (CLI) or terminal.<br />
+      Navigate to the project folder using the <code>cd</code> command.<br />
+      Type the command: <code>git init</code><br />
+      This command initializes a new Git repository in your project folder.
+    </p>
+
+    <h1>Create an HTML File:</h1>
+    <p>
+      Use a text editor or Integrated Development Environment (IDE) to create a
+      new file named <code>index.html</code> within your project folder.<br />
+      Write some HTML code to create a basic webpage structure.
+    </p>
+
+    <h1>Check the Status:</h1>
+    <p>
+      In your CLI or terminal, type the command: <code>git status</code><br />
+      Git will show the status of your repository, indicating any changes made
+      and untracked files.
+    </p>
+
+    <h1>Add Files to the Staging Area:</h1>
+    <p>
+      Type the command: <code>git add index.html</code><br />
+      This command adds the <code>index.html</code> file to the staging area to
+      prepare for a commit.
+    </p>
+
+    <h1>Remove Files from the Staging Area:</h1>
+    <p>
+      If you accidentally added a file to the staging area and want to remove
+      it, use this command.<br />
+      Type the command: <code>git rm --cached &lt;filename&gt;</code> (replace
+      &lt;filename&gt; with the file you want to remove)<br />
+      This command removes the file from the staging area, but keeps it in your
+      working directory.
+    </p>
+
+    <h1>Commit Changes:</h1>
+    <p>
+      Type the command: <code>git commit -m "Initial commit"</code><br />
+      This command commits your changes to the repository, with a descriptive
+      message explaining the commit.
+    </p>
+
+    <h1>View Commit History:</h1>
+    <p>
+      Type the command: <code>git log</code><br />
+      Git will display a log of all your commits, including commit hashes,
+      authors, dates, and commit messages.
+    </p>
+
+    <h1>Push Changes to a Remote Repository:</h1>
+    <p>
+      Create a remote repository on a Git hosting platform (e.g., GitHub).<br />
+      Connect your local repository to the remote repository.<br />
+      Type the command: <code>git push origin master</code><br />
+      This command pushes your local commits to the remote repository's master
+      branch.
+    </p>
+
+    <h1>Create and Switch to a New Branch:</h1>
+    <p>
+      Type the command: <code>git checkout -b feature</code><br />
+      This command creates a new branch named <code>feature</code> and switches
+      to it, allowing you to work on a separate feature.
+    </p>
+
+    <h1>Make Changes and Commit:</h1>
+    <p>
+      Modify the <code>index.html</code> file, add new features, or make any
+      desired changes.<br />
+      Add and commit the changes using the <code>git add</code> and
+      <code>git commit</code> commands.
+    </p>
+
+    <h1>Push the New Branch:</h1>
+    <p>
+      Type the command: <code>git push origin feature</code><br />
+      This command pushes the changes in the <code>feature</code> branch to the
+      remote repository.
+    </p>
+
+    <h1>Clone the Remote Repository:</h1>
+    <p>
+      Find the Git repository URL of your project (e.g., from GitHub).<br />
+      Open your CLI or terminal.<br />
+      Navigate to the desired location where you want to clone the
+      repository.<br />
+      Type the command: <code>git clone &lt;repository-url&gt;</code> (replace
+      &lt;repository-url&gt; with the actual URL)<br />
+      This command creates a local copy of the remote repository on your
+      computer.
+    </p>
+
+    <h1>Congratulations!</h1>
+    <p>
+      You've completed the exercise, covering basic Git commands in a web
+      development scenario. Remember to practice these commands regularly to
+      become more comfortable with version control and collaboration using Git.
+      Happy coding!
+    </p>
+  </body>
+</html>
